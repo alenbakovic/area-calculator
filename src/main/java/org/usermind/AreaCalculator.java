@@ -19,7 +19,7 @@ public class AreaCalculator {
         log.info("Starting Area Calculator");
 
         if (args.length != 1) {
-            log.error("Incorrect number of input arguments! Only 1 input argument is allowed!");
+            log.error("Incorrect number of input arguments! Input argument number must be 1! Current: {}", args.length);
             return;
         }
 
