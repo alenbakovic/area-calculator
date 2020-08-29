@@ -27,7 +27,7 @@ public class AreaCalculator {
         try {
             input = Double.valueOf(args[0]);
         } catch (NumberFormatException exception) {
-            log.error("Invalid input format '{}'. Input must be number!", args[0]);
+            log.error("Invalid input format '{}'. Input must be valid number!", args[0]);
             return;
         }
 

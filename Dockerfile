@@ -8,4 +8,4 @@ COPY ./ ./
 RUN mvn clean package
 
 # set the startup command to execute the jar
-CMD ["java", "-jar", "target/area-calculator-1.0-SNAPSHOT.jar", "5"]
+ENTRYPOINT ["java", "-jar", "target/area-calculator-1.0-SNAPSHOT.jar"]
