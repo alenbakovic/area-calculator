@@ -1,13 +1,12 @@
 package org.usermind.calculators;
 
 /**
- * Description of {@link THING}
  *
- * @author alen bakovic (alen@getconvey.com)
+ * @author alen bakovic
  */
-public class SquareAreaCalculator extends Calculator {
+public class TriangleAreaCalculator implements Calculator {
     @Override
-    public double calculateArea(int sideSize) {
-        return Math.pow(sideSize, 2);
+    public double calculateArea(double sideSize) {
+        return Math.pow(sideSize, 2) * Math.sqrt(3) / 4;
     }
 }

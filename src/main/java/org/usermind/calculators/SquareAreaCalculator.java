@@ -1,13 +1,12 @@
 package org.usermind.calculators;
 
 /**
- * Description of {@link THING}
  *
- * @author alen bakovic (alen@getconvey.com)
+ * @author alen bakovic
  */
-public class CircleAreaCalculator extends Calculator {
+public class SquareAreaCalculator implements Calculator {
     @Override
-    public double calculateArea(int radius) {
-        return Math.PI * Math.pow(radius, 2);
+    public double calculateArea(double sideSize) {
+        return Math.pow(sideSize, 2);
     }
 }

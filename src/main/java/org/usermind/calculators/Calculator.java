@@ -1,6 +1,9 @@
-package org.usermind.calculators;/**
-  * Description of {@link THING}
-  *
-  * @author alen bakovic (alen@getconvey.com)
-  */public class Calculator {
+package org.usermind.calculators;
+
+/**
+ *
+ * @author alen bakovic
+ */
+public interface Calculator {
+    double calculateArea(double input);
 }

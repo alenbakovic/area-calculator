@@ -1,6 +1,10 @@
-package org.usermind.calculators;/**
-  * Description of {@link THING}
-  *
-  * @author alen bakovic (alen@getconvey.com)
-  */public enum CalculatorType {
+package org.usermind.calculators;
+
+/**
+ * @author alen bakovic
+ */
+public enum CalculatorType {
+    SQUARE,
+    CIRCLE,
+    TRIANGLE
 }
